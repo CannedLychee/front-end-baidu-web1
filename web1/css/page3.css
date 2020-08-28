@@ -1,0 +1,135 @@
+page3 {
+	height: 970px;
+	background-color: #ffffff;
+}
+._3_0_back {
+	width: 100%;
+	height: 970px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: -1;
+}
+
+._3_0_img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 970px;
+}
+
+._3_0_cover {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	height: 970px;
+	opacity: 0.65;
+	background-color: black;
+}
+
+._3_0_content {
+	width: 100%;
+	height: 970px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 10;
+}
+
+/* #region  _3_1_ */
+._3_1_detail {
+	position: absolute;
+	top: 214px;
+	left: 350px;
+	height: 517px;
+	width: 600px;
+}
+	._3_1_1_text {
+		font-family: Montserrat;
+		font-style: Extralight;
+		font-size: 50px;
+		color: #ffffff;
+		position: absolute;
+		top:0;
+		left:0;
+		width: 480px;
+	}
+	._3_1_2_text {
+		font-family: Montserrat;
+		font-style: Extralight;	
+		font-size: 21.5px;
+		color: #ffffffaa;
+		position: absolute;
+		top:221px;
+		left:0;
+		width: 480px;
+	}
+	/* #region  _3_1_3_ */
+	._3_1_3_block {
+		position: absolute;
+		width: 100%;
+		height: 71px;
+		bottom:0;
+		left:0;
+	}
+		._3_1_3_1_button {
+			position: absolute;
+			left:0;
+			top:0;
+			width: 285.5px;
+			height: 100%;
+			border-radius: 3px;
+			font-family: Montserrat;
+			font-style: Extralight;
+			font-size: 15px;
+			font-weight: bold;
+			letter-spacing: 2.25px;
+			transition-duration: 0.3s;
+		}
+		._3_1_3_1_button:hover {
+			background-color: #222222;
+			color: #ffffff;
+		}
+		._3_1_3_1_button:active {
+			background-color: #666666;
+		}
+		._3_1_3_2_button {
+			position: absolute;
+			right:0;
+			top:0;
+			width: 285.5px;
+			height: 100%;
+			background-color: transparent;
+			border: 0.5px solid #ffffff55;
+			border-radius: 3px;
+			font-family: Montserrat;
+			font-style: Extralight;
+			font-size: 15px;
+			font-weight: bold;
+			color: #ffffff;
+			letter-spacing: 2.25px;
+			transition-duration: 0.3s;
+		}
+		._3_1_3_2_button:hover {
+			background-color: #ffffff;
+			color: #000000;
+		}
+		._3_1_3_2_button:active {
+			background-color: #aaaaaa;
+			border: #aaaaaa;
+		}
+	/* #endregion */
+/* #endregion */
+
+._3_2_preview {
+	position: absolute;
+	top: 135px;
+	right:0px;
+}

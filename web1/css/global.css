@@ -1,0 +1,27 @@
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/Montserrat-Light-6.otf);
+	font-style: Light;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url(../font/Montserrat-ExtraLight-5.otf);
+	font-style: ExtraLight;
+}
+
+button,
+textarea,
+input {
+	outline: none;
+	border: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+::-webkit-scrollbar{
+	display: none;
+}

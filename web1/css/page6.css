@@ -1,0 +1,157 @@
+page6 {
+	height: 970px;
+}
+._6_0_content {
+	position: absolute;
+	top: 70px;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 1000px;
+	height: 850px;
+}
+._6_1_title {
+	font-size: 50px;
+	font-family: Montserrat;
+	font-style: Extralight;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+._6_2_detail {
+	font-size: 20px;
+	font-family: Montserrat;
+	font-style: Extralight;
+	line-height: 28px;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 800px;
+	text-align: center;
+}
+._6_3_block {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 680px;
+}
+	._6_3_1_cell {
+		position: relative;
+		height: 330px;
+		width: 490px;
+	}
+	._6_3_2_cell {
+		position: relative;
+		height: 330px;
+		width: 490px;
+	}
+	._6_3_3_cell {
+		position: relative;
+		height: 330px;
+		width: 490px;
+	}
+	._6_3_4_cell {
+		position: relative;
+		height: 330px;
+		width: 490px;
+	}
+		._6_3_mask {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			background-color: #000000;
+			z-index: 10;
+			transition-duration: 0.4s;
+		}
+			._6_3_name {
+				font-size: 20px;
+				font-family: Montserrat;
+				font-style: Light;
+				font-weight: bold;
+				color: #ffffff;
+				text-align: center;
+				position: absolute;
+				top: 100px;
+				left:0;right:0;
+				margin:auto;
+			}
+			._6_3_title {
+				font-size: 14px;
+				font-family: Montserrat;
+				font-style: Extralight;
+				text-align: center;
+				color: #ffffff;
+				position: absolute;
+				top: 130px;
+				left:0;right:0;
+				margin:auto;
+			}
+			._6_3_icons {
+				position: absolute;
+				top: 180px;
+				left:0;right:0;
+				margin: auto;
+				text-align: center;
+			}
+				._6_3_icon {
+					background-color: transparent;
+					height: 50px;
+					width: 50px;
+					border: 1px solid white;
+					border-radius: 50%;
+					margin-left:5px;
+					margin-right:5px;
+				}
+				._6_3_icon:hover {
+					background-color: #666666aa;
+				}
+				._6_3_icon:active {
+					background-color: #aaaaaaaa;
+				}
+	._6_3_1_cell:hover ._6_3_mask{
+		opacity: 0.65;
+	}
+	._6_3_2_cell:hover ._6_3_mask{
+		opacity: 0.65;
+	}
+	._6_3_3_cell:hover ._6_3_mask{
+		opacity: 0.65;
+	}
+	._6_3_4_cell:hover ._6_3_mask{
+		opacity: 0.65;
+	}
+
+
+
+
+
+
+
+
+	._6_3_2_cell {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 330px;
+		width: 490px;
+	}
+	._6_3_3_cell {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 330px;
+		width: 490px;
+	}
+	._6_3_4_cell {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 330px;
+		width: 490px;
+	}
